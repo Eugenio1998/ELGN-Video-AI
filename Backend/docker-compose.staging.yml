@@ -1,0 +1,16 @@
+# 📄 docker-compose.staging.yml
+version: "3.8"
+
+services:
+  postgres_staging:
+    image: postgres:15
+    restart: always
+    container_name: elgn_postgres_staging
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: elgn_staging
+      POSTGRES_PASSWORD: staging123
+      POSTGRES_DB: elgn_staging_db
+    volumes:
+      - ./postgres_staging_data:/var/lib/postgresql/data

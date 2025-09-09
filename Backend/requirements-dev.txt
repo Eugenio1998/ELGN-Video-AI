@@ -1,0 +1,18 @@
+# Testes
+pytest
+pytest-cov
+freezegun
+
+# Tipagem e Lint
+mypy
+ruff
+pylint
+
+# Ferramentas úteis
+watchdog[watchmedo]
+click
+click-repl
+schedule
+
+# Task Runner (separado, pois também é usado em produção)
+celery

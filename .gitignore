@@ -1,0 +1,17 @@
+@"
+# Python
+**/.venv/
+**/venv/
+**/__pycache__/
+*.pyc
+
+# Node / Next.js
+**/node_modules/
+**/.next/
+**/dist/
+**/out/
+
+# Outros
+.env
+.env.*
+"@ | Out-File -Encoding UTF8 .gitignore
