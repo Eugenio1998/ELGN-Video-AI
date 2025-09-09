@@ -1,0 +1,13 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  env: {
+    NEXT_PUBLIC_API_BASE_URL: process.env.NEXT_PUBLIC_API_BASE_URL,
+    NEXT_PUBLIC_DEFAULT_LANGUAGE: process.env.NEXT_PUBLIC_DEFAULT_LANGUAGE,
+    NEXT_PUBLIC_SUPPORTED_LANGUAGES:
+      process.env.NEXT_PUBLIC_SUPPORTED_LANGUAGES,
+    NEXT_PUBLIC_MAX_FILE_SIZE_MB: process.env.NEXT_PUBLIC_MAX_FILE_SIZE_MB,
+    NEXT_PUBLIC_SUPPORTED_FORMATS: process.env.NEXT_PUBLIC_SUPPORTED_FORMATS,
+  },
+};
+
+module.exports = nextConfig;

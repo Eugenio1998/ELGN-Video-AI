@@ -1,0 +1,60 @@
+{
+  "title_home": "Bem-vindo ao ELGN Video.AI",
+  "subtitle_home": "Edição automática com IA para vídeos profissionais",
+
+  "upload_label": "Envie ou arraste um vídeo:",
+  "upload_no_video": "Nenhum vídeo selecionado no momento.",
+  "upload_selected": "Arquivo selecionado:",
+  "upload_remove": "Remover vídeo",
+
+  "enhancements_title": "Melhorias de IA",
+  "enhance_upscale": "Melhorar Resolução",
+  "enhance_stabilize": "Estabilizar Vídeo",
+  "enhance_colorFix": "Correção de Cores",
+  "enhance_crop": "Corte Inteligente",
+
+  "script_title": "Gerar Roteiro com IA",
+  "script_placeholder": "Digite o tema do vídeo...",
+  "script_button": "Gerar Roteiro",
+  "script_copy": "📋 Copiar Roteiro",
+
+  "voice_title": "Gerador de Voz com IA",
+  "voice_placeholder": "Digite o texto da narração...",
+  "voice_button": "Gerar Narração",
+
+  "filter_title": "Filtros Visuais com IA",
+  "filter_placeholder": "Escolha um filtro ou deixe que a IA decida",
+
+  "download_notice": "Para baixar o vídeo editado, você precisa adquirir um dos nossos planos.",
+  "plans_link": "Ver Planos",
+
+  "navbar_login": "Login",
+  "navbar_register": "Criar Conta",
+  "navbar_plans": "Planos",
+  "navbar_help": "Ajuda",
+  "navbar_language": "Idioma",
+
+  "footer_email": "📧 elgn@tech.com",
+  "footer_rights": "© 2025 ELGN Video.AI. Todos os direitos reservados.",
+
+  "title": "Editar Perfil",
+  "back": "Voltar",
+  "fullName": "Nome completo",
+  "displayName": "Nome de exibição",
+  "phone": "Telefone",
+  "newPassword": "Nova senha",
+  "confirmPassword": "Confirmar senha",
+  "uploadAvatar": "Enviar avatar",
+  "removeAvatar": "Remover avatar",
+  "avatarSuccess": "Avatar atualizado com sucesso!",
+  "avatarError": "Erro ao enviar avatar.",
+  "avatarRemoved": "Avatar removido.",
+  "passwordTooShort": "A senha precisa ter pelo menos 6 caracteres.",
+  "passwordMismatch": "As senhas não coincidem.",
+  "updated": "Perfil atualizado com sucesso!",
+  "save": "Salvar Alterações",
+  "strength": "Força da senha",
+  "strengthWeak": "Fraca",
+  "strengthModerate": "Moderada",
+  "strengthStrong": "Forte"
+}

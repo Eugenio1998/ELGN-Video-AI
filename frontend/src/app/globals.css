@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+html,
+body {
+  height: auto;
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+@keyframes neonPulse {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.neon-bar {
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(270deg, #f97316, #22c55e, #3b82f6, #ec4899);
+  background-size: 800% 800%;
+  animation: neonPulse 4s ease infinite;
+  box-shadow: 0 0 10px #fff;
+  border-radius: 2px;
+}
